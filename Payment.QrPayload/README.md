@@ -22,34 +22,6 @@ using Payment.QrPayload;
 var result = QrPayloadGenerator.GeneratePayload(
     bankAccount: "123456789",
     bankId: "970422", // MBBank
-
-# Payment.QrPayload
-
-Library for generating QR Code payloads for payments (EMVCo/VietQR).
-
-## Features
-- **SOLID Design**: Extensible interface `IQrConfig` for different standards.
-- **Easy to Use**: Simple static methods for quick integration.
-- **VietQR Support**: Out-of-the-box support for Vietnam Banking QR (Napas247).
-- **No Dependencies**: Lightweight `netstandard2.0` library.
-
-## Installation
-Install via NuGet (Package name TBD once published).
-
-If you installed this library from NuGet and want to view the original source, the project repository is available at:
-https://github.com/anpero-vietnam/Payment.QrPayload.git
-
-You can browse the code, raise issues, or contribute via that repository.
-
-## Usage
-
-### Simple Usage (Vietnam)
-This method mimics the legacy parameters for easy migration.
-### Advanced Usage (Object-Oriented)
-
-You can use the `VnQrConfig` class or implement your own `IQrConfig`.
-## Extending to other countries
-Implement `IQrConfig` interface:
     message: "Payment for Order #123",
     amount: "50000"
 );

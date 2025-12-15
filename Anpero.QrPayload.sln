@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.QrPayload", "Payment.QrPayload\Payment.QrPayload.csproj", "{EDBC90D2-65EB-50DE-C713-F689F34C48E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPayment", "TestPayment\TestPayment.csproj", "{055DB1FE-C645-7612-8A20-A3AFD6C10C85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDBC90D2-65EB-50DE-C713-F689F34C48E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBC90D2-65EB-50DE-C713-F689F34C48E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBC90D2-65EB-50DE-C713-F689F34C48E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBC90D2-65EB-50DE-C713-F689F34C48E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055DB1FE-C645-7612-8A20-A3AFD6C10C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055DB1FE-C645-7612-8A20-A3AFD6C10C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055DB1FE-C645-7612-8A20-A3AFD6C10C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055DB1FE-C645-7612-8A20-A3AFD6C10C85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4979D164-DAFC-43FA-9A67-71A669E55690}
+	EndGlobalSection
+EndGlobal

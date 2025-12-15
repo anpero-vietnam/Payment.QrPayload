@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>    
-    <ProjectReference Include="..\Payment.QrPayload\Payment.QrPayload.csproj" />
+    <ProjectReference Include="..\Payment.QrPayload\Anpero.Payment.QrPayload.csproj" />
   </ItemGroup>
 
 </Project>

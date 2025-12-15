@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.QrPayload", "Payment.QrPayload\Payment.QrPayload.csproj", "{EDBC90D2-65EB-50DE-C713-F689F34C48E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anpero.Payment.QrPayload", "Payment.QrPayload\Anpero.Payment.QrPayload.csproj", "{EDBC90D2-65EB-50DE-C713-F689F34C48E2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPayment", "TestPayment\TestPayment.csproj", "{055DB1FE-C645-7612-8A20-A3AFD6C10C85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

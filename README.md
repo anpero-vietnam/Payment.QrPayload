@@ -61,13 +61,13 @@ Below are the most common service codes available in the library (`Payment.QrPay
 Install usage via NuGet (replace `Version` with the latest release):
 
 ```bash
-dotnet add package Payment.QrPayload
+dotnet add package Anpero.Payment.QrPayload --version 1.0.1
 ```
 
 Or via Package Manager Console:
 
 ```powershell
-Install-Package Payment.QrPayload
+Install-Package Anpero.Payment.QrPayload
 ```
 
 ## 🚀 Usage

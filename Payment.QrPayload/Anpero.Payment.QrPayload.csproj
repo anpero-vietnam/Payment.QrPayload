@@ -19,8 +19,9 @@ Giải pháp phù hợp cho các hệ thống thanh toán, ứng dụng bán hà
     <RepositoryUrl>https://github.com/anpero-vietnam/Payment.QrPayload?tab=readme-ov-file</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Qrcode,qrPayload</PackageTags>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,6 +29,21 @@ Giải pháp phù hợp cho các hệ thống thanh toán, ứng dụng bán hà
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>
